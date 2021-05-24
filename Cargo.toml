@@ -7,6 +7,7 @@ author = "ambiso"
 description = "Tired of negative impls? Use deprive instead of derive!"
 repository = "https://github.com/ambiso/deprive"
 homepage = "https://github.com/ambiso/deprive"
+documentation = "https://docs.rs/deprive/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

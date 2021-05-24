@@ -4,6 +4,26 @@ use proc_macro::TokenStream;
 use quote::quote;
 use syn::{parse_macro_input, ItemStruct, Meta, NestedMeta};
 
+/// The whole point.
+/// 
+/// Use this macro as a shorthand for a negative impl and to confuse 
+/// your coworkers who will definitely misread it upon first sight:
+/// 
+/// ```
+/// #![feature(negative_impls)]
+/// use deprive::deprive;
+/// #[deprive(Send, Sync)]
+/// struct X {}
+/// ```
+///
+/// The above will expand to:
+///
+/// ```
+/// #![feature(negative_impls)]
+/// struct X {}
+/// impl !Send for X {}
+/// impl !Sync for X {}
+/// ```
 #[proc_macro_attribute]
 pub fn deprive(attr: TokenStream, input: TokenStream) -> TokenStream {
     let input = parse_macro_input!(input as ItemStruct);
