@@ -1,5 +1,7 @@
 # deprive
 
+![https://docs.rs/deprive/badge.svg](Docs)
+
 Tired:
 
 ```rust
