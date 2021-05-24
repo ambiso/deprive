@@ -1,6 +1,6 @@
 # deprive
 
-![https://docs.rs/deprive/badge.svg](Docs)
+[![Docs](https://docs.rs/deprive/badge.svg)](https://docs.rs/deprive/latest/deprive/attr.deprive.html)
 
 Tired:
 
