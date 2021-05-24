@@ -5,10 +5,10 @@ use quote::quote;
 use syn::{parse_macro_input, ItemStruct, Meta, NestedMeta};
 
 /// The whole point.
-/// 
-/// Use this macro as a shorthand for a negative impl and to confuse 
+///
+/// Use this macro as a shorthand for a negative impl and to confuse
 /// your coworkers who will definitely misread it upon first sight:
-/// 
+///
 /// ```
 /// #![feature(negative_impls)]
 /// use deprive::deprive;
