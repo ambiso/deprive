@@ -2,6 +2,11 @@
 name = "deprive"
 version = "0.1.0"
 edition = "2018"
+license = "MIT AND Apache-2.0"
+author = "ambiso"
+description = "Tired of negative impls? Use deprive instead of derive!"
+repository = "https://github.com/ambiso/deprive"
+homepage = "https://github.com/ambiso/deprive"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
