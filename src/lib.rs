@@ -12,6 +12,7 @@ use syn::{parse_macro_input, ItemStruct, Meta, NestedMeta};
 /// ```
 /// #![feature(negative_impls)]
 /// use deprive::deprive;
+///
 /// #[deprive(Send, Sync)]
 /// struct X {}
 /// ```
